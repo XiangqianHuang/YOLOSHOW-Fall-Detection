@@ -8,11 +8,11 @@ import time
 import os
 
 # --- 邮件发送者和接收者配置 (硬编码) ---
-SENDER_QQ_EMAIL = "1711178226@qq.com"  # 你的QQ邮箱
-QQ_AUTHORIZATION_CODE = "mwiotbbawxxrecih"  # 你的QQ邮箱SMTP授权码
-RECEIVER_EMAIL = "1711178226@qq.com"  # 接收警报的邮箱
-SMTP_SERVER_QQ = 'smtp.qq.com'
-SMTP_PORT_QQ = 465  # SMTP SSL端口
+SENDER_QQ_EMAIL = ""  # 你的QQ邮箱
+QQ_AUTHORIZATION_CODE = ""  # 你的QQ邮箱SMTP授权码
+RECEIVER_EMAIL = ""  # 接收警报的邮箱
+SMTP_SERVER_QQ = ''
+SMTP_PORT_QQ =   # SMTP SSL端口
 
 # --- 全局开关：控制是否发送邮件 ---
 ENABLE_EMAIL_SENDING = True  # True 启用, False 禁用
